@@ -1,0 +1,15 @@
+<html>
+
+    <body>
+        <h1> Week 2 - Getting Started With HTML </h1>
+        <p>
+            "After expanding rapidly for years and snapping up assets as China’s economy boomed, <strong>Evergrande is now snowed under a crushing debt of $300 billion</strong>. </br> 
+            The world’s most indebted property developer has been scrambling to pay its suppliers, and warned investors twice in as many weeks that <strong>it could default on its debts</strong>. </br>
+            On Tuesday, Evergrande said its property sales will likely continue to drop significantly in September after declining for months, making its cash flow situation even more dire. </br>
+            The Chinese developer is so huge that <strong>fallout from a potential failure could hurt not only the Chinese economy, but spread to markets beyond.</strong>" </br>
+            <a href="https://www.cnbc.com/2021/09/17/china-developer-evergrande-debt-crisis-bond-default-and-investor-risks.html" title="China’s embattled developer Evergrande is on the brink of default. Here’s why it matters" target="_blank">Link to Paragraph</a> </br>
+            <img src="meme.jpg" widh="400" height="400">
+        </p>
+    </body> 
+
+</html>
