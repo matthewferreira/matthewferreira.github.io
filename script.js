@@ -4,15 +4,14 @@ function alertOnPress() {
 
 function biggerText(){
     document.getElementById("textbox").style.fontSize = "1.5em";
-    var text = document.getElementById("textbox").value;
-    var parts = text.split(".");
-    var newText = parts.join("-Moo.")
-    document.getElementById("textbox").value = newText;
-
 }
 
 function toUpper(){
     document.getElementById("textbox").style.textTransform = "uppercase";
+    var text = document.getElementById("textbox").value;
+    var parts = text.split(".");
+    var newText = parts.join("-Moo.")
+    document.getElementById("textbox").value = newText;
 }
 
 
