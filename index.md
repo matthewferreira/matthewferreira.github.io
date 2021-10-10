@@ -1,15 +1,42 @@
 <html>
+    <head>
+		<title>Fancify Shamcify</title>
 
-    <body>
-        <h1> Week 2 - Getting Started With HTML </h1>
-        <p>
-            "After expanding rapidly for years and snapping up assets as China’s economy boomed, <strong>Evergrande is now snowed under a crushing debt of $300 billion</strong>. </br> 
-            The world’s most indebted property developer has been scrambling to pay its suppliers, and warned investors twice in as many weeks that <strong>it could default on its debts</strong>. </br>
-            On Tuesday, Evergrande said its property sales will likely continue to drop significantly in September after declining for months, making its cash flow situation even more dire. </br>
-            The Chinese developer is so huge that <strong>fallout from a potential failure could hurt not only the Chinese economy, but spread to markets beyond.</strong>" </br>
-            <a href="https://www.cnbc.com/2021/09/17/china-developer-evergrande-debt-crisis-bond-default-and-investor-risks.html" title="China’s embattled developer Evergrande is on the brink of default. Here’s why it matters" target="_blank">Link to Paragraph</a> </br>
-            <img src="meme.jpg" widh="400" height="400">
-        </p>
-    </body> 
+		<!-- link to your script file here -->
+		<link rel="stylesheet" href="styles.css">
+		<script src="script.js"></script>
+		
+	</head>
 
+	<body>
+		<h1>Fancify my Text</h1>
+		<div class="container">
+			<fieldset class="box" id="textField">
+
+				<div class="row">
+					<div></div>
+				</div>
+				<label for="Text" >Text</label>
+				<textarea id="textbox" rows="4" cols="30"></textarea><br>
+
+
+			</fieldset>
+
+			<fieldset class="box">
+				<legend>Fancify</legend>
+				<input type="button" value="Bigger!" onclick="biggerText()"><br>
+
+
+				<label for="fancyShmancy">FancyShmancy</label>
+				<input type="radio" id="fancyShmancy" name="radios" onclick="fancyShmancy()" onchange="changeButton()"><br>
+
+
+				<label for="boringBetty">BoringBetty</label>
+				<input type="radio" id="boringBetty" name="radios" onclick="boringBetty()" onchange="changeButton()" checked><br>
+
+
+				<input type="button" value="Moo!" onclick="toUpper()"><br>
+			</fieldset>
+		</div>
+	</body>
 </html>
